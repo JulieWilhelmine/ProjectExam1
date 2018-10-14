@@ -12,7 +12,7 @@ fetch('http://api.open-notify.org/astros.json')
     })
 
     .catch(err => {
-        console.error("There was an error", err);
+        console.error('An error ocurred', err);
     });
 
 

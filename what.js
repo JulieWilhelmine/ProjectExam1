@@ -12,7 +12,7 @@ fetch('http://api.open-notify.org/iss-now.json')
     })
 
     .catch(err => {
-        console.error("There was an error", err);
+        console.error('An error ocurred', err);
     })};
 
 setInterval(coordinate, 1000);
